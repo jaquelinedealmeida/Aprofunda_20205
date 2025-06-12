@@ -1,0 +1,40 @@
+{
+  "nomes": [
+    {
+      "id": 1,
+      "nome": "Angela"
+    },
+    { 
+      "id": 2,
+      "nome": "Bianca"
+    },
+    {
+      "id": 3,
+      "nome": "Geovanna"
+    },
+    {
+      "id": 4,
+      "nome": "Jéssica"
+    },
+    {
+      "id": 5,
+      "nome": "Juliana"
+    },
+    {
+      "id":6,
+      "nome": "Kimberly"
+    },
+    {
+      "id": 7,
+      "nome": "Lais"
+    },
+    {
+      "id": 8,
+      "nome": "Maria Eduarda"
+    },
+    {
+      "id": 9,
+      "nome": "Roberta"
+    }
+  ]
+}
