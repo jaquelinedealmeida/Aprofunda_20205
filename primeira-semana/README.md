@@ -92,7 +92,6 @@ Criar um repositório com o nome Projeto1-Api-Aprofunda no GitHub, clonar e no c
 - Criar e configurar o servidor (array de objetos)
 - Trabalhar com dados de memória
 - Estruturar rotas
-- Validar dados (ex: verificar se o title foi enviado)
 - Testar no Postaman ou TunderClient
 
 ### Tarefa a ser entregue
