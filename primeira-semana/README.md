@@ -1,26 +1,27 @@
 # Como construir o seu SETUP?
 
 # Repositório
+
 Se você criou primeiro seu repositório localmente, depois você cria no GitHub com o mesmo nome - o nome da pasta principal precisa ser o mesmo nome do repositório e segue os comandos abaixo:
 
 ### Comandos
 
-- Inicializa o git no seu repositório 
-  
+- Inicializa o git no seu repositório
+
   `git init`
 
 - Com o repositório no GitHub criado, copie o link indicado para o seu repositório, por exemplo:
 
- `git remote add origin git@github.com:jaquelinedealmeida/Aprofunda_20205.git`
+`git remote add origin git@github.com:jaquelinedealmeida/Aprofunda_20205.git`
 
 - Mudar o nome da branch de master para main:
   `git branch -M main`
 
 - Faça commit das suas alterações:
- `git commit -m "o que foi feito`
+  `git commit -m "o que foi feito`
 
 - Suba as suas alterações para o seu repositório remoto:
- `git push -u origin main`
+  `git push -u origin main`
 
 ### Node e pacotes
 
@@ -39,7 +40,7 @@ Com o Node já instalado, é só seguir os comandos abaixo:
 ### Comandos:
 
 - Verifica a versão do node:
-  
+
   `node -v` ou `node --version`
 
 - Inicializa o node e adciona o arquivo package.json:
@@ -63,9 +64,38 @@ Obs: Sempre que um pacote/dependência for instalado pela primeira vez, ele incl
 ### Organização de arquivos:
 
 ### Gitignore
-- Arquivo para ignorar arquivos muito grande e/ou que não precise ser visualizados externamente no GitHub (os arquivos ficam em cinza.) 
+
+- Arquivo para ignorar arquivos muito grande e/ou que não precise ser visualizados externamente no GitHub (os arquivos ficam em cinza.)
 
   `.gitignore`
 
 ### Package.json
-- Contém o resumo sobre a nossa aplicação, nome, descrição, scripts, dependências etc. 
+
+- Contém o resumo sobre a nossa aplicação, nome, descrição, scripts, dependências etc.
+
+### Projeto 1
+
+## API de Gerenciamento de Tarefas
+
+Criar um repositório com o nome Projeto1-Api-Aprofunda no GitHub, clonar e no computador e criar uma nova pasta chamada API, incluindo os pacotes e arquivos necessários para criar a API.
+
+### Funcionalidades:
+
+- GET /tasks - Listar tarefas
+- GET /tasks/:id - Detalhar uma tarefa por id
+- POST /tasks - Criar uma tarefa
+- PUT /tasks/:id - Atualizar uma tarefa
+- DELETE /tasks/:id - Deletar uma tarefa
+
+### Conteúdo:
+
+- Criar e configurar o servidor (array de objetos)
+- Trabalhar com dados de memória
+- Estruturar rotas
+- Validar dados (ex: verificar se o title foi enviado)
+- Testar no Postaman ou TunderClient
+
+### Tarefa a ser entregue
+
+- Criar as rotas PUT e Delete por id e testar no TunderClient ou Postman.
+-
