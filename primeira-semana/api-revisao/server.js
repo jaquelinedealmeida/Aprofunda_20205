@@ -9,7 +9,7 @@ app.use(cors());
 
 const users = [];
 
-//GET
+//GETj
 const getUsers = router.get("/users", (req, res) => {
   res.status(200).json(users);
 });
