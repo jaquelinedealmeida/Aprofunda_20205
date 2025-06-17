@@ -98,4 +98,4 @@ Criar um repositório com o nome Projeto1-Api-Aprofunda no GitHub, clonar e no c
 ### Tarefa a ser entregue
 
 - Criar as rotas PUT e Delete por id e testar no TunderClient ou Postman.
--
+- Criar um readme descrevendo a atividade feita e incluir print dos testes.
