@@ -42,11 +42,10 @@ blogRouter.get("/text", (req, res) => {
   const id = req.query.id;
   const textFound = textList.find((text) => text.id === id);
   res.json(textFound);
-  moveBy;
 });
 
 //atualizar/editar um texto especifico
-blogRouter.patch("text/:id", (req, res) => {
+blogRouter.patch("/text/:id", (req, res) => {
   const { id } = req.params;
   const { title, content, status, author } = req.body;
 
@@ -72,7 +71,7 @@ blogRouter.patch("text/:id", (req, res) => {
 });
 //deletar um texto específico
 
-blogRouter.delete("text/:id", (req, res) => {
+blogRouter.delete("/text/:id", (req, res) => {
   const { id } = req.params;
 
   const listUpdated = textList.filter((text) => text.id === id);
