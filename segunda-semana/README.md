@@ -78,7 +78,7 @@ Como usar o typescript e pacotes no seu projeto?
   Projeto2-Clean-Architecture-Aprofunda.
 
 - Clonar o repositório e, no seu computador, criar uma nova pasta chamada:
-  api
+  api-clean-architecture
 
 - Dentro da pasta api, rodar os comandos para configurar o projeto (exceto a instalação do TypeScript, se já tiver sido feito anteriormente).
 
@@ -104,6 +104,6 @@ Como usar o typescript e pacotes no seu projeto?
 
 ### Não obrigatório
 
-- Criar rotas GET:id, PATCH E DELETE
+- Criar rotas GET por id, PATCH E DELETE
 
 _IMPORTANTE_: Incluir link do Github no Classroom!
