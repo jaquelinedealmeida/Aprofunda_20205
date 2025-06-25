@@ -30,9 +30,30 @@ Como usar o typescript e pacotes no seu projeto?
 
   `npm install --save-dev typescript ts-node-dev @types/node @types/express @types/uuid @types/cors`
 
+- No arquivo tsconfig.json apagar todos os demais arquivos e incluir somente:
+
+`{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES2020",
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
+`
+
 - Inicializar o typescript(este comando deve ser rodado sempre que iniciar um novo projeto) para gerar o arquivo tsconfig.json
 
   `npx tsc --init`
+
+- Rode a aplicação com:
+  `npm run start`
 
 ### Organização de arquivos:
 
